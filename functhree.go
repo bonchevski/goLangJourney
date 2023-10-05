@@ -17,11 +17,11 @@ func yearsUntilEvents(age int) (yearsUntilAdult int, yearsUntildrinking int, yea
 		yearsUntilCarRental = 0
 	}
 
-	return yearsUntilAdult, yearsUntildrinking, yearsUntilCarRental
+	return
 }
 
 func main() {
-	yearsUntilAdult, yearsUntildrinking, yearsUntilCarRental := yearsUntilEvents(44)
+	yearsUntilAdult, yearsUntildrinking, yearsUntilCarRental := yearsUntilEvents(12)
 	println("You will be an adult in", yearsUntilAdult, "years")
 	println("You will be able to drink in", yearsUntildrinking, "years")
 	println("You will be able to rent a car in", yearsUntilCarRental, "years")
